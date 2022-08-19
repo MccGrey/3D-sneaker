@@ -20,7 +20,57 @@ body {
 }
 
 .card {
-    min-height: 80vh;
+    min-height: 90vh;
     width: 35rem;
+    border-radius: 2rem;
+    padding: 0 5rem;
     box-shadow: 0 20px 20px rgba(0,0,0,0.2), 0 0 50px rgba(0,0,0,0.2);
+}
+
+
+.sneaker {
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sneaker img {
+    width: 18rem;
+    z-index: 2;
+}
+
+.circle {
+    width: 15rem;
+    height: 15rem;
+    background: linear-gradient(to right, rgba(90, 4, 4, 0.767), rgba(235, 149, 20, 0.89));
+    position: absolute;
+    border-radius: 50%;
+    z-index: 1;
+
+}
+
+.info h1 {
+    font-size: 3rem;
+}
+
+.info h3 {
+    font-size: 1.3rem;
+    padding: 2rem 0rem;
+    color: rgb(51, 42, 42);
+    font-weight: lighter;
+}
+
+.sizes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sizes button {
+    padding: 0.5rem 2rem;
+    background: none;
+    border: none;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    border-radius: 30px;
+    
 }
