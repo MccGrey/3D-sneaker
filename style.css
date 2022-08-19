@@ -40,6 +40,7 @@ body {
 .sneaker img {
     width: 18rem;
     z-index: 2;
+    transition: all .5s ease-in-out;
 }
 
 .circle {
@@ -53,7 +54,8 @@ body {
 }
 
 .info h1 {
-    font-size: 3rem;
+    font-size: 2rem;
+    transition: all .5s ease-in-out;
 }
 
 .info h3 {
@@ -61,11 +63,13 @@ body {
     padding: 2rem 0rem;
     color: rgb(51, 42, 42);
     font-weight: lighter;
+    transition: all .5s ease-in-out;
 }
 
 .sizes {
     display: flex;
     justify-content: space-between;
+    transition: all .5s ease-in-out;
 }
 
 .sizes button {
@@ -85,6 +89,7 @@ button.active {
 }
 .purchase {
     margin-top: 5rem;
+    transition: all .5s ease-in-out;
 }
 
 .purchase button {
